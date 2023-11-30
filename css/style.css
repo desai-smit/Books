@@ -1,0 +1,343 @@
+body {
+  background: linear-gradient(to bottom, aliceblue, steelblue);
+  font-family: Arial, sans-serif;
+  width: 55em;
+  margin: 0 auto; /* Centers the content within the specified width */
+}
+
+.wrapper {
+  background-color: white;
+  padding: 1em;
+}
+
+.logo img{
+  width: -webkit-fill-available;
+}
+
+.nav h1,.nav h2,.nav h3,.nav h4,.nav h5,.nav h6 {
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px dimgrey;
+}
+
+.navbar {
+  background-color: #e0e0eb; /* Blue background */
+  overflow: hidden;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav {
+  border-top: 3px solid blue;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blue;
+  background-color: #f7f7f7;
+  padding: 5px 10px;
+  border: 1px solid #c8c8c8;
+}
+
+nav a:hover {
+  color: #f7f7f7;
+  background-color: blue;
+}
+
+.mainheading {
+  text-align: center;
+  color: #898686;
+  text-shadow: 1px 1px 1px dimgrey;
+}
+
+.main-content {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.main-content a {
+  color: red;
+  text-decoration: none;
+}
+
+.hero {
+  float: left;
+  flex-basis: 62.5%;
+  background-color: #cccccc;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 10px 5px 0px;
+}
+
+.hero a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero a:hover {
+  text-decoration: underline;
+}
+
+.hero a:visited {
+  color: magenta;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.main-content a:visited {
+  color: magenta;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptions img{
+  flex-basis: 35%;
+  float: left;
+  border: 2px solid blue;
+}
+
+#removered img{
+  border: 1px solid grey;
+}
+
+.descriptions p{
+  flex-basis: 63%;
+  float: right;
+  margin-left: 10px;
+}
+
+.divider {
+  border-top: 2px solid rgb(65, 65, 65);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.aside {
+  text-align: center;
+  float: right;
+  flex-basis: 28%;
+  height: fit-content;
+  background-color: #f7f7f7;
+  border: 2px;
+  border-color: #8d8c8c;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 0px 5px 10px;
+}
+
+.aside h2 {
+  color: darkblue;
+  text-transform: uppercase;
+}
+
+.aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aside li {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.aside a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.aside a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  color: dimgrey;
+  font-size: small;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: blue;
+  border-right: 1px solid #c8c8c8;
+  padding: 0.5em;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.social-icons img {
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-color: rgb(217, 213, 213);
+  border-radius: 50%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  opacity: 0.7;
+}
+
+.social-icons a{
+  padding: 10px;
+}
+
+.social-icons {
+  padding: 10px;
+}
+
+/* CSS for Styled Table */
+
+.tablecontent {
+  float: left;
+  flex-basis: 62.5%;
+  background-color: #c0bfbf;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 10px 5px 0px;
+  display: flex;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 5px 60px;
+  font-size: .85em;
+  font-family: 'Trebuchet MS';
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 5px 15px;
+  text-wrap: nowrap;
+  height: 20px;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+}
+
+/* Style the table */
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid dodgerblue; /* Set the table border color */
+}
+
+/* Style the table header */
+.styled-table th {
+  background-color: rgb(83, 83, 255); /* Set the background color of the header row */
+  color: white; /* Set the text color of the header row */
+  font-weight: bold;
+}
+
+/* Style the table rows */
+.styled-table tbody tr:nth-child(odd) {
+  background: linear-gradient(aliceblue, steelblue);; /* Set the background color of odd rows */
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: white; /* Set the background color of even rows */
+}
+
+/* Style the table cells */
+.styled-table td {
+  border: 2px solid dodgerblue; /* Set the cell border color */
+}
+
+/* Contact form styles */
+.contact-form {
+  width: auto;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-form h1 {
+  margin-bottom: 0.5em;
+}
+
+.contact-form label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form input[type=tel],
+.contact-form input[type=radio]
+.contact-form textarea {
+  flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form input[type=submit] {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  color: red;
+  font-weight: 700;
+}
+
+.namecontacthead {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+.amazonlink {
+  color: red;
+}

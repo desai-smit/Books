@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact me</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <img src="./img/headerimage.jpg" alt="Logo">
+      </div>
+    </header>
+  
+    <nav class="navbar">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./books.html">BOOKS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./details.html">DETAILS</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="mainheading">CONTACT ME</h1>
+
+    <div class="main-content">
+      
+      <div class="hero">
+        <p class="note">Please fill out all of this fields</p>
+        <p>Please feel free to contact me with questions or comments. All fields below are required so that I am able to properly respond back.</p>        
+        <h2 class="namecontacthead">Contact Christopher</h2>
+        <section class="contact-form">
+            <!-- Form elements -->
+            <form action="/submit-form" method="post">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="telephone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact:</label>
+                    <label>
+                        <input type="radio" name="contact" value="Business">
+                        Business
+                    </label>
+                    <label>
+                        <input type="radio" name="contact" value="Individual">
+                        Individual
+                    </label>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+          </section>
+      </div>
+      <div class="aside">
+        <section id="recent-books">
+          <h2>Recent Books</h2>
+          <ul>
+            <li>
+                <a href="#"><b>HTML and CSS:</b> Elizabeth Castro and Bruce Hyslop</a>
+              </li>
+              <li>
+                <a href="#"><b>Database Systems:</b> Hector Garcia-Molina, Jefferey D Ullman, and Jenniffer Widom</a>
+              </li>
+              <li>
+                <a href="#"><b>Introduction to Java Programming:</b> Daniel Liang</a>
+              </li>
+          </ul>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <div class="divider"></div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="Social Icon"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="./img/twitter.png" alt="Social Icon"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt="Social Icon"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="./img/pinterest.png" alt="Social Icon"></a>
+        </div>
+      <div class="footer-nav">
+          <a href="#">HOME</a>
+          <a href="#">BOOKS</a>
+          <a href="#">ABOUT</a>
+          <a href="#">DETAILS</a>
+          <a href="#">CONTACT</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 By Christopher, All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

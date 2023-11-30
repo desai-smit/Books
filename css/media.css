@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .hero, .aside {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  }
